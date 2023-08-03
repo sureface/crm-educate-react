@@ -83,7 +83,7 @@ const Offers = () => {
                             <button type="button" className="crm-offers__btn" data-aos="fade-right" data-aos-duration="500"> { data[0].price } </button>
                         </div>
                         {
-                            data[0].offers.map((item, key) => (
+                            data?.[0].offers.map((item, key) => (
                                 <div className="d-flex align-items-center crm-offers__body" key={key} data-aos="zoom-in-right" data-aos-duration="500">
                                     <div className="crm-offers__check">
                                         <FontAwesomeIcon icon={faSquareCheck} className='crm-offers__check_box'/>
@@ -102,7 +102,7 @@ const Offers = () => {
                             </button>
                         </div>
                         {
-                            data[1].offers.map((item, key) => (
+                            data?.[1].offers.map((item, key) => (
                                 <div className="d-flex align-items-center crm-offers__body" key={key} data-aos="zoom-in-left" data-aos-duration="500">
                                     <div className="crm-offers__check">
                                         <FontAwesomeIcon icon={faSquareCheck} className='crm-offers__check_box'/>
