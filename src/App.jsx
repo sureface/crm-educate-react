@@ -12,7 +12,7 @@ import PlayMarket from './assets/icons/google-play.svg'
 import PlayMarketPhone from './assets/img/google-play-phones.png'
 import whyWe from './assets/img/why-we.png'
 import tgBot from './assets/img/tg-bot.png'
-import Offers from './components/offers';
+import Offers from './components/Offers';
 
 
 const App = () => {
