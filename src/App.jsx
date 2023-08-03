@@ -15,6 +15,7 @@ import tgBot from './assets/img/tg-bot.png'
 import Offers from './components/Offers';
 
 
+
 const App = () => {
 
   useEffect(() => {
