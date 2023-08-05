@@ -37,6 +37,11 @@
 .navbar-brand  img{
     width: 100%;
 } 
+.navbar-toggler {
+    box-shadow: none !important;
+    border: none !important;
+    background: transparent !important;
+}
 #header {
     height: calc(100vh - 86px);
     padding-top: 60px;

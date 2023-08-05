@@ -26,12 +26,12 @@ const App = () => {
 
   return (
     <>
-        <a href='#' className="go-top">
+        {/* <a href='#' className="go-top">
             <FontAwesomeIcon icon={faChevronUp} style={{color: "#ffffff",}} />
         </a>
-        <PreLoader />
+        <PreLoader /> */}
         <NavBar />
-        <header id="header" className="bg-blue">
+        {/* <header id="header" className="bg-blue">
             <div className="container">
                 <div className="row align-items-center">
                     <div className="col">
@@ -129,7 +129,7 @@ const App = () => {
             <Offers />
         </section>
 
-        <Footer />
+        <Footer /> */}
     </>
   )
 }
