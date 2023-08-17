@@ -22,7 +22,7 @@ const HeroSection = () => {
         },
         {
             icon: faLaptop,
-            title: "Avtomatlashtirilganhisob-kitob",
+            title: "Avtomatlashtirilgan hisob-kitob",
             description: "Barcha to'lovlar, qarzdorliklar, o'qituvchilarning oylik maoshlari va chiqimlarni avtomatik hisoblash"
         },
         {
@@ -69,11 +69,11 @@ const HeroSection = () => {
         <div className="main-description" data-aos="fade-up" data-aos-anchor-placement="top-center">
             Eskicha boshqaruvdan voz kechish vaqti keldi. Endi siz emas kompyuterlar ishlaydi.
         </div>
-        <div className="row g-5">
+        <div className="row g-3 g-lg-5">
 
             {
                 data.map((item, key) => (
-                    <div className="main-box col-4" key={key} data-aos="fade-up" data-aos-duration="3000">
+                    <div className="main-box col-lg-4 col-md-6 col-12" key={key} data-aos="fade-up" data-aos-duration="3000">
                         <FontAwesomeIcon icon={item.icon} className='main-box__icon' />
                         <div className="main-box_title"> { item.title } </div>
                         <div className="main-box_text"> { item.description } </div>

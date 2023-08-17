@@ -29,21 +29,22 @@ const App = () => {
         <a href='#' className="go-top">
             <FontAwesomeIcon icon={faChevronUp} style={{color: "#ffffff",}} />
         </a>
-        <PreLoader />
+        {/* <PreLoader /> */}
         <NavBar />
-        <header id="header" className="bg-blue">
+
+        <header id="header" className="bg-blue mb-5">
             <div className="container">
                 <div className="row align-items-center">
-                    <div className="col">
-                        <div className="header-title animate__animated animate__fadeInLeftBig">
+                    <div className="col-12 col-lg-6 mb-5 mb-lg-0">
+                        <div className="header-title text-center text-lg-start animate__animated animate__fadeInLeftBig">
                             EduSmart CRM 一 O'quv markazlar va maktablarni aqlli boshqarish tizimi
                         </div>
-                        <div className="header-text animate__animated animate__fadeInLeftBig">
+                        <div className="header-text text-center text-lg-start animate__animated animate__fadeInLeftBig">
                             O'quv markazingizni dunyoning ixtiyoriy nuqtasidan boshqaring!
                         </div>
                         <button type="btn" className="header-btn animate__animated animate__fadeInLeftBig">kirish</button>
                     </div>
-                    <div className="col">
+                    <div className="col-12 col-lg-6">
                         <img src={headerImage} alt="err" className="w-100 animate__animated animate__fadeInRightBig" />
                     </div>
                 </div>
@@ -69,7 +70,7 @@ const App = () => {
                     </div>
                 </div>
             </div>
-            <div className="why-we">
+            {/* <div className="why-we">
                 <div className="why-we__title">
                     <div data-aos="fade-right" data-aos-duration="100">
                         Nega aynan biz ?
@@ -126,10 +127,10 @@ const App = () => {
                     </div>
                 </div>
             </div>
-            <Offers />
+            <Offers /> */}
         </section>
 
-        <Footer />
+        {/*<Footer /> */}
     </>
   )
 }

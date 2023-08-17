@@ -18,6 +18,9 @@
 .navbar.fixed-header {
     box-shadow: 0 3px 10px 0 rgba(0,0,0,.161);
 }
+.navbar-close {
+    display: none;
+}
 .nav-link {
     color: var(--light-black);
     font-family: Gilroy-Medium, sans-serif;
@@ -31,6 +34,16 @@
 .nav-link:hover {
     color: var(--blue) !important;
 }
+.offcanvas-title {
+    color: var(--white);
+}
+.btn-close-drawer {
+    border: none;
+    background: none;
+}
+.nav-socialMedia {
+    display: none;
+}
 .navbar-brand {
     width: 60px;
 }
@@ -38,7 +51,6 @@
     width: 100%;
 } 
 #header {
-    height: calc(100vh - 86px);
     padding-top: 60px;
     margin-top: 86px;
     overflow: hidden;
